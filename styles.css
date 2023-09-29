@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    width: 700px;
+    height: 1100px;
+    background-color: #23252C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 100px;
+    margin: 0 auto;
+}
+
+#image {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px 10px 0px 0px;
+    border:none;
+    margin-bottom: 0px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.content {
+    width: 450px;
+    margin-left: 0px;
+    background-color: rgb(27, 27, 27);
+    line-height: 15.36px;
+    height:550px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+
+.icons-container {
+    width: 450px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(5, 5, 5);
+    padding:10px 10px;
+    border-radius: 0px 0px 7px 7px;
+  
+}
+
+#icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    border:none;
+    border-radius: 7px;
+    align-items: center;
+
+}
+
+button{
+  border-radius: 5px;
+  border:none;
+  margin-right:18px;
+  margin-top:7px;
+  padding:7px 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+.span1{
+text-align: center;
+color:black;
+}
+h1, p, h3{
+    color:white;
+}
+
+.name{
+    margin-left:120px;
+    margin-top:60px;
+    margin-bottom:17px;
+    font-weight: bolder;
+}
+
+h3{
+    margin-left: 97px;
+    font-weight: lighter;
+    color:orangered;
+    margin-bottom: 13px;
+}
+
+.web{
+    margin-left:120px;
+    margin-bottom: 30px;
+}
+
+.but2{
+    background-color: rgb(59, 59, 255);
+}
+
+
+.icone{
+    width:20px;
+    height:20px;
+}
+
+.about{
+    margin-bottom:20px;
+}
+
+#about{
+    font-weight:lighter;
+    color:rgb(177, 188, 199);
+    margin-bottom: 40px;
+}
+.interest{
+    margin-bottom:20px;
+}
+p{
+    font-weight: normal;
+}
